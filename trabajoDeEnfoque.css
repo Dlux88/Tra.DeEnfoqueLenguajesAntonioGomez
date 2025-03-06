@@ -284,21 +284,16 @@ ul.menu {
 }
 
 .menu>li {
-    /*borde superior de cada li blanco (coinicide con el de abajo de cada li)*/
 
     background-color: bisque;
     display: inline-block;
     width: 20%;
 
-    /*debido a que son seis opciones, no es lo mejor!!!*/
 }
 
 .menu>li>a {
-    /*separamos cada opción del menú de su borde izdo*/
     padding: .2em;
-    /*hacemos que cada opción sea elemento de bloque (de esta forma todo el li será elemento activo)*/
     display: block;
-    /*quitamos la apariencia de enlace a cada opción*/
     text-decoration: none;
     text-align: center;
     letter-spacing: 3px;
