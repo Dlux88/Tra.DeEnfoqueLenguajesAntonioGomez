@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con nosotros</title>
+    <link rel="stylesheet" href="trabajoDeEnfoque.css">
+  
+
+</head>
+
+<body>
+
+
+    <form action="#" method="post" enctype="multipart/form-data">    </form>
+
+
+        <nav class="navegacion">
+            <ul class="menu">
+
+                <li><a href="Inicio.html" title="Enlace genérico">Inicio</a></li>
+                <li><a href="quienesSomos.html" title="Enlace genérico">¿quien somos?</a></li>
+                <li><a href="ProductosYservicios.html" title="Enlace genérico">Productos</a></li>
+                <li><a href="contacto.html" title="Enlace genérico">Contacto</a></li>
+
+
+
+
+            </ul>
+        </nav>
+        <br><br>
+        <fieldset>
+
+            <legend>Datos Personales</legend>
+
+
+            <label for="Nombre"></label>
+            <input type="text" id="Nombre" name="nombre" placeholder="Apellidos y nombre">
+
+
+
+
+
+
+
+
+            <br><br>
+
+            <label for="dni"></label>
+            <input type="text" name="DNI" id="dni" pattern=" [0-9]{8}[A-Za-z]" placeholder="DNI/NIF" required>
+            <br><br>
+            <label for="Fecha"></label>
+            <input type="text" id="Fecha" name="Fecha" placeholder="Fecha de nacimiento">
+            <br><br>
+            <label for="Ciudad"></label>
+            <input type="text" id="Ciudad" name="Ciudad" placeholder="Ciudad">
+            <br><br>
+            <label for="CP"></label>
+            <input type="text" id="CP" name="CP" placeholder="Codigo Postal">
+            <br><br>
+            <label for="Telefono"></label>
+            <input type="text" id="Telefono" name="Telefono" placeholder="Telefono">
+            <br><br>
+            <label for="Email"></label>
+            <input type="text" id="Email" name="Email" placeholder="Email">
+
+
+
+            <br><br>
+         
+            <label for="Nacionalidad"></label>
+            <input type="text" id="Nacionalidad" name="Nacionalidad" placeholder="Nacionalidad">
+
+
+
+            <br><br>
+
+            <label>Sexo:</label>
+
+            <input type="radio" id="masculino" name="Sexo" value="masculino" required>
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="femenino" name="Sexo" value="Femenino">
+            <label for="femenino">Femenino</label>
+
+            <input type="radio" id="otro" name="sexo" value="otro">
+
+            <label for="otro">Otro</label>
+
+            <br><br>
+
+        </fieldset>  
+            <fieldset>
+                <legend>Fomacion Profesional</legend>
+                <br><br>
+
+
+                <label for="titulacion1">Titulación</label>
+                <input type="text" id="titulacion1" name="titulacion1" placeholder="Titulación">
+
+                <label for="inicio1">Año de inicio</label>
+                <input type="number" id="inicio1" name="inicio1" min="1960" max="2025" required>
+
+                <label for="fin1">Año de finalización</label>
+                <input type="number" id="fin1" name="fin1" min="1960" max="2025" required>
+
+                <br><br>
+
+                <label for="titulacion2">Titulación</label>
+                <input type="text" id="titulacion2" name="titulacion2" placeholder="Titulación">
+
+                <label for="inicio1">Año de inicio</label>
+                <input type="number" id="inicio2" name="inicio2" min="1960" max="2025" required>
+
+                <label for="fin1">Año de finalización</label>
+                <input type="number" id="fin2" name="fin2" min="1960" max="2025" required>
+
+
+
+
+
+                <br><br>
+
+
+
+
+
+                <label for="foto">Añadir CV</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Idiomas</legend>
+            
+               
+                <label for="Ingles">Inglés</label>
+                <select name="ingles" id="Ingles" size="1">
+                    <option value="1">Bajo</option>
+                    <option value="2">Medio</option>
+                    <option value="3">Alto</option>
+                </select>
+                <br><br>
+            
+              
+                <label for="Frances">Francés</label>
+                <select name="frances" id="Frances" size="1">
+                    <option value="1">Bajo</option>
+                    <option value="2">Medio</option>
+                    <option value="3">Alto</option>
+                </select>
+                <br><br>
+            
+               
+                <label for="Aleman">Alemán</label>
+                <select name="aleman" id="Aleman" size="1">
+                    <option value="1">Bajo</option>
+                    <option value="2">Medio</option>
+                    <option value="3">Alto</option>
+                </select>
+                <br><br>
+            
+               
+                <label for="Chino">Chino</label>
+                <select name="chino" id="Chino" size="1">
+                    <option value="1">Bajo</option>
+                    <option value="2">Medio</option>
+                    <option value="3">Alto</option>
+                </select>
+                <br><br>
+            
+           
+                <label for="Espanol">Español</label>
+                <select name="espanol" id="Espanol" size="1">
+                    <option value="1">Bajo</option>
+                    <option value="2">Medio</option>
+                    <option value="3">Alto</option>
+                </select>
+            
+            </fieldset>
+            
+
+
+
+
+
+            <fieldset>
+                <legend>Mas datos</legend>
+                <label for="Datos1"></label>
+                <textarea name="datos" id="Datos1" rows="5" cols="40"
+                    placeholder="Añade aqui informacion adicional"></textarea>
+                <button type="submit"> Enviar</button>
+            </fieldset>
+
+
+
+
+            <br>
+            <footer>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="facebook-icon.png" alt="Facebook" width="30">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="instagram-icon.png" alt="Instagram" width="30">
+                </a>
+
+
+                Copy right Antonio Gomez, Febrero 14 - 2025
+            </footer>
+
+</body>
+
+</html>
