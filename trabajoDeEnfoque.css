@@ -1,0 +1,312 @@
+* {
+    background-color: rgb(229, 180, 218);
+    color: white;
+    font: oblique bold 100% cursive;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+
+#titulo {
+
+    text-align: center;
+    background-color: rgb(186, 127, 166);
+    color: white;
+    font: oblique bold 150% cursive;
+}
+
+h3 {
+    text-align: center
+}
+
+h2 {
+    padding-left: 20px;
+    color: white;
+    font: oblique bold 150% cursive;
+
+
+}
+
+
+.vertical-menu a {
+
+    background-color: rgb(220, 138, 205);
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font: oblique bold 150% cursive;
+
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(209, 30, 219);
+}
+
+.vertical-menu a:active {
+    background-color: rgb(198, 110, 182);
+    color: white;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+main {
+    width: 66%;
+    float: left;
+    overflow: hidden;
+
+}
+
+
+
+.contenido {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+
+
+
+}
+
+#izquierda {
+
+    float: left;
+    width: 300px;
+    height: 240px;
+
+}
+
+#izquierda3 {
+
+    float: left;
+    width: 300px;
+    height: 240px;
+
+}#izquierda4 {
+
+    float: left;
+    width: 300px;
+    height: 240px;
+
+}#izquierda5{
+
+    float: left;
+    width: 300px;
+    height: 240px;
+
+}
+
+
+
+#derecha {
+    float: right;
+    width: 350px;
+    height: 220px;
+
+}
+
+.vertical-quien a {
+
+    background-color: rgb(164, 101, 153);
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font: oblique bold 150% cursive;
+
+
+}
+
+.vertical-quien a:hover {
+    background-color: rgb(245, 70, 172);
+
+
+}
+
+.vertical-quien a:active {
+    background-color: rgb(174, 112, 163);
+
+}
+
+
+
+.vertical-trabaja a {
+
+    background-color: rgb(188, 108, 173);
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font: oblique bold 150% cursive;
+
+
+}
+
+.vertical-trabaja a:hover {
+    background-color: rgb(245, 70, 172);
+
+
+}
+
+.vertical-trabaja a:active {
+    background-color: rgb(215, 111, 196);
+
+}
+
+aside {
+    width: 15%;
+    float: left;
+    background-color: blanchedalmond;
+    border: solid 20px rgb(160, 96, 146);
+    margin: 10px;
+    box-shadow: 10px 10px 10px rgb(152, 89, 151);
+    font: oblique bold 120% cursive;
+    ;
+}
+
+section {
+    padding: 10px;
+    border: solid rgb(131, 14, 84);
+    background-color: #c488a9;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgb(11, 2, 5);
+}
+
+aside nav {
+    padding: 5px;
+}
+
+.tftable {
+    font-size: 12px;
+    color: rgb(121, 99, 117);
+    border-width: 1px;
+    border-color: rgb(121, 99, 117);
+    border-collapse: collapse;
+    
+
+
+}
+
+.tftable {
+    font-size: 12px;
+    color: rgb(159, 109, 153);
+    ;
+    width: 100%;
+    border-width: 1px;
+    border-color: #d811b4;
+    border-collapse: collapse;
+
+}
+
+.tftable tr {
+    background-color: #0faf27;
+}
+
+.tftable td {
+    font-size: 12px;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color:#d811b4;
+}
+
+.tftable tr:hover {
+    background-color: #8a517c;
+}
+
+footer {
+    padding: 10px;
+    background-color: rgb(210, 152, 199);
+    color: white;
+    clear: both;
+    text-align: center;
+}
+
+#titulo2 {
+    text-align: center;
+    background-color: rgb(186, 127, 166);
+    color: white;
+    font: oblique bold 150% cursive;
+
+}
+
+#textoquienessomos {
+
+    text-align: center;
+    color: white;
+    font: oblique bold 100% cursive;
+
+
+
+}
+
+#fotoderecha {
+    width: 750px;
+    height: 520px;
+
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.navegacion {
+    width: 100%;
+    border: 1px solid white;
+
+
+}
+
+
+ul.menu {
+    /*ancho del menú*/
+    width: 100%;
+    /*quitamos viñetas*/
+    list-style-type: none;
+    /*margen y relleno cero px*/
+    margin: 0;
+    padding: 0;
+    /*establecemos borde*/
+    border: 1px solid white;
+
+}
+
+.menu>li {
+    /*borde superior de cada li blanco (coinicide con el de abajo de cada li)*/
+
+    background-color: bisque;
+    display: inline-block;
+    width: 20%;
+
+    /*debido a que son seis opciones, no es lo mejor!!!*/
+}
+
+.menu>li>a {
+    /*separamos cada opción del menú de su borde izdo*/
+    padding: .2em;
+    /*hacemos que cada opción sea elemento de bloque (de esta forma todo el li será elemento activo)*/
+    display: block;
+    /*quitamos la apariencia de enlace a cada opción*/
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    font: oblique bold 100% cursive;
+}
+
+.menu>li>a:hover {
+    background-color: rgb(201, 88, 223);
+}
+
